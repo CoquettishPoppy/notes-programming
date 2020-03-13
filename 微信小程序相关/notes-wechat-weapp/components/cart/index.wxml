@@ -1,0 +1,10 @@
+<view class="container">
+    <view class="cart" wx:for="{{items}}" wx:key="id" data-dragname="items" bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd" data-id="{{item.productId}}" data-index="{{index}}">
+        <view class="order-detail" style="{{item.detailStyle}}">
+            <view class="cart-name">{{item.name}}</view>
+            <view class="cart-price">¥{{item.price}}</view>
+            <view class="cart-amount">¥{{item.amount}}</view>
+        </view>
+        <view class="del-btn">删除</view>
+    </view>
+</view>

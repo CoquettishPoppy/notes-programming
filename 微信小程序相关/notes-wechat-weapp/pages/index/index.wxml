@@ -1,0 +1,8 @@
+<view class="menu-view">
+  <view class="menu-box">
+    <view class="title">1.购物车左滑删除功能</view>
+    <view class="cart-container">
+      <cart></cart>
+    </view>
+  </view>
+</view>

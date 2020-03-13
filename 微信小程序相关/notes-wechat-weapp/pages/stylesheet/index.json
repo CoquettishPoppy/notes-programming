@@ -1,0 +1,7 @@
+{
+    "usingComponents": {
+      "cart":"../../components/cart/index"
+    },
+    "disableScroll": true
+  }
+  

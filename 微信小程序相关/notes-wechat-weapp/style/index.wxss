@@ -1,0 +1,23 @@
+/* pages/menu/menu.wxss */
+.menu-view {
+  height: 100vh;
+  color: #3f3f3f;
+  background: #f4f4f4;
+  overflow: hidden;
+  overflow-y: auto;
+  position: relative;
+  box-sizing: border-box;
+  padding: 24rpx 24rpx;
+}
+.title {
+  font-size: 32rpx;
+  font-weight: 600;
+}
+.menu-box {
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 10rpx;
+  box-shadow: 0 4rpx 20rpx 0 rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  padding: 10rpx;
+}
