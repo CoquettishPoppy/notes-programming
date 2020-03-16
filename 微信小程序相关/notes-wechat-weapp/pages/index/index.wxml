@@ -15,7 +15,7 @@
     </view>
   </view>
   <view class="menu-box">
-    <view class="title">3. 加入购物车小球飞入</view>
+    <view class="title">3. 固定右下角购物车位置小球飞入</view>
     <view class="menu-container">
       <view class="class-box">水果</view>
       <view class="product-box">
