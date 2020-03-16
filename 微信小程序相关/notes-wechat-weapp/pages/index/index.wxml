@@ -5,4 +5,13 @@
       <cart></cart>
     </view>
   </view>
+  <view class="menu-box">
+    <view class="title">2.倒计时</view>
+    <view class="count_down-container">
+      <button catch:tap="countDown">点击开始倒计时</button>
+      <view class="box">
+        <count-down id="countDown"></count-down>
+      </view>
+    </view>
+  </view>
 </view>

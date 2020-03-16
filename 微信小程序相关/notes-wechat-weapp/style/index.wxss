@@ -22,3 +22,9 @@
   padding: 10rpx;
   margin-bottom: 24rpx;
 }
+.box {
+  box-sizing: border-box;
+  margin: 30rpx 0;
+  display: flex;
+  justify-content: center;
+}

@@ -107,9 +107,3 @@
   }
 }
 /* 进度条旋转动画 end*/
-.box {
-  box-sizing: border-box;
-  margin: 30rpx 0;
-  display: flex;
-  justify-content: center;
-}

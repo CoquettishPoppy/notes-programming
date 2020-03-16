@@ -1,6 +1,7 @@
 {
   "usingComponents": {
-    "cart":"../../components/cart/index"
+    "cart":"../../components/cart/index",
+    "count-down": "../../components/count-down/index"
   },
   "disableScroll": true
 }

@@ -7,6 +7,10 @@ Page({
 
   },
   onShow: function () {
-    
+
+  },
+  countDown () {
+    let countDownComponent = this.selectComponent('#countDown')
+    countDownComponent.leftCount()
   }
 })
