@@ -30,6 +30,7 @@ Component({
         let disX = this.data.startX - moveX // 手指起始点与移动之间的差值
         let btnWidth = 180 // 按钮的width
         let detailStyle = ''
+        console.log(disX)
         if (disX <= 0) { // 没有移动距离或者是向右侧移动
           detailStyle = 'left:0'
         } else if (disX > 0) { // 移动距离大于0
