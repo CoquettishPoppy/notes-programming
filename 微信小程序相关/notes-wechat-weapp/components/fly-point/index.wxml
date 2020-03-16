@@ -1,0 +1,5 @@
+<block wx:for="{{beans}}" wx:key="{{index}}">
+  <view class="bean-wrap" style="left:{{item.left}}; top:{{item.top}}">
+    <view class="bean"></view>
+  </view>
+</block>

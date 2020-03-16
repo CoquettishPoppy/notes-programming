@@ -1,7 +1,8 @@
 {
   "usingComponents": {
     "cart":"../../components/cart/index",
-    "count-down": "../../components/count-down/index"
+    "count-down": "../../components/count-down/index",
+    "fly-point": "../../components/fly-point/index"
   },
   "disableScroll": true
 }

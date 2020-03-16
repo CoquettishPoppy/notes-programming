@@ -1,1 +1,29 @@
-@import '../../style/index.wxss'
+@import "../../style/index.wxss";
+.menu-view {
+  position: relative;
+}
+.menu-container {
+  display: flex;
+  height: 250rpx;
+  justify-content: space-between;
+}
+.product-box .product {
+  display: flex;
+  align-items: center;
+}
+.product-box .product button {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  line-height: 60rpx;
+  padding: 0 !important;
+  text-align: center;
+  font-size: 30rpx;
+  margin-left: 24rpx;
+}
+.class-box {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  width: 100rpx;
+}

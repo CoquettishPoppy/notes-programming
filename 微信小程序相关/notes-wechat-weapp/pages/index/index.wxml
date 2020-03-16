@@ -1,17 +1,34 @@
 <view class="menu-view">
   <view class="menu-box">
-    <view class="title">1.购物车左滑删除功能</view>
+    <view class="title">1. 购物车左滑删除功能</view>
     <view class="cart-container">
       <cart></cart>
     </view>
   </view>
   <view class="menu-box">
-    <view class="title">2.倒计时</view>
+    <view class="title">2. 倒计时</view>
     <view class="count_down-container">
       <button catch:tap="countDown">点击开始倒计时</button>
       <view class="box">
         <count-down id="countDown"></count-down>
       </view>
     </view>
+  </view>
+  <view class="menu-box">
+    <view class="title">3. 加入购物车小球飞入</view>
+    <view class="menu-container">
+      <view class="class-box">水果</view>
+      <view class="product-box">
+        <view class="product box">
+          <view class="">橘子 x1</view>
+          <button catch:tap="addCart">+</button>
+        </view>
+        <view class="product box">
+          <view class="">草莓 x1</view>
+          <button catch:tap="addCart">+</button>
+        </view>
+      </view>
+    </view>
+    <fly-point position="{{position}}" />
   </view>
 </view>
