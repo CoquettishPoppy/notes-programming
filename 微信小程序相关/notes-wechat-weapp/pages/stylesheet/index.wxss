@@ -1,5 +1,6 @@
 @import "../../style/index.wxss";
 
+/* 信封渐变样式 start */
 .envo-container {
   width: 100%;
 }
@@ -45,7 +46,70 @@
   );
   background-size: 20rpx 100%;
 }
-.box{
+/*信封渐变样式 end*/
+
+/* 进度条旋转动画 start*/
+
+.ordering-box {
+  position: relative;
+}
+
+.ordering-run-box {
+  position: relative;
+  width: 156rpx;
+  height: 156rpx;
+  /*整体旋转*/
+  animation: moveover 1.5s linear infinite;
+}
+
+.ordering-box-top {
+  position: absolute;
+  width: 78rpx;
+  height: 156rpx;
+  border-radius: 78rpx 0 0 78rpx;
+  /* 起始最深颜色为 #127dd3，过渡到中间颜色为 #73bce8 */
+  background: linear-gradient(#127dd3, #73bce8);
+  z-index: 2;
+}
+
+.ordering-box-mid {
+  position: absolute;
+  width: 78rpx;
+  height: 156rpx;
+  border-radius: 0 78rpx 78rpx 0;
+  left: 50%;
+  overflow: hidden;
+  /* 过渡到中间颜色为 #73bce8 最终末尾颜色为 #f9fdfe */
+  background: linear-gradient(#fff, #73bce8);
+  z-index: 1;
+}
+
+.ordering-box-end {
+  position: absolute;
+  width: 136rpx;
+  height: 136rpx;
+  top: 10rpx;
+  left: 10rpx;
+  border-radius: 50%;
+  background-color: #fff;
+  z-index: 2;
+}
+
+/*旋转动画*/
+
+@keyframes moveover {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* 进度条旋转动画 end*/
+.box {
   box-sizing: border-box;
   margin: 30rpx 0;
+  display: flex;
+  justify-content: center;
 }

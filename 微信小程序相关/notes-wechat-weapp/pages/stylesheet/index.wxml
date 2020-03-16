@@ -14,4 +14,15 @@
       <view class="dash-line box"></view>
     </view>
   </view>
+  <view class="menu-box">
+    <view class="title">2.进度条圆环滚动样式</view>
+    <view class="ordering-box box">
+      <view class="ordering-run-box">
+        <view class="ordering-box-top">
+        </view>
+        <view class="ordering-box-mid"></view>
+        <view class="ordering-box-end"></view>
+      </view>
+    </view>
+  </view>
 </view>
