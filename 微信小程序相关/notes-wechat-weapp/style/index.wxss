@@ -20,4 +20,5 @@
   box-shadow: 0 4rpx 20rpx 0 rgba(0, 0, 0, 0.12);
   overflow: hidden;
   padding: 10rpx;
+  margin-bottom: 24rpx;
 }

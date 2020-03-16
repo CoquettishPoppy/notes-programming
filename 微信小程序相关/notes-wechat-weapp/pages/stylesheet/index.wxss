@@ -33,3 +33,19 @@
     transparent 30px 40px
   );
 }
+.envo-container .dash-line {
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    #f1f1f1,
+    #f1f1f1 10rpx,
+    transparent 10rpx,
+    transparent
+  );
+  background-size: 20rpx 100%;
+}
+.box{
+  box-sizing: border-box;
+  margin: 30rpx 0;
+}

@@ -3,9 +3,15 @@
     <view class="title">1.实现地址栏信封边框样式</view>
     <view class="envo-container">
       <view class="">第一种方式：</view>
-      <view class="inline"></view>
+      <view class="inline box"></view>
       <view class="">第二种方式：</view>
-      <view class="inline1"></view>
+      <view class="inline1 box"></view>
+    </view>
+  </view>
+  <view class="menu-box">
+    <view class="title">2.虚线样式</view>
+    <view class="envo-container">
+      <view class="dash-line box"></view>
     </view>
   </view>
 </view>
