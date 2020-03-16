@@ -9,7 +9,7 @@
   pointer-events: none;
   z-index: 999;
 }
-
+/* 外层控制x轴向的运动 */
 @keyframes wrap {
   0% {
     opacity: 1;
@@ -17,7 +17,7 @@
 
   100% {
     opacity: 1;
-    transform: translate3d(-600rpx, 0, 0);
+    transform: translate3d(-600rpx, 0, 0); 
   }
 }
 
@@ -29,7 +29,7 @@
   background-color: red;
   animation: bean 0.5s cubic-bezier(0.4, -0.2, 1, 0.2) 1;
 }
-
+/* 内层控制y轴向的运动 */
 @keyframes bean {
   100% {
     transform: translate3d(0, 100vh, 0);
