@@ -17,7 +17,7 @@
 
   100% {
     opacity: 1;
-    transform: translate3d(-60rpx, 0, 0);
+    transform: translate3d(-600rpx, 0, 0);
   }
 }
 
@@ -27,7 +27,7 @@
   height: 20rpx;
   border-radius: 50%;
   background-color: red;
-  animation: bean 0.5s cubic-bezier(0.4, -0.2, 0.8, 0.2) 1;
+  animation: bean 0.5s cubic-bezier(0.4, -0.2, 1, 0.2) 1;
 }
 
 @keyframes bean {
