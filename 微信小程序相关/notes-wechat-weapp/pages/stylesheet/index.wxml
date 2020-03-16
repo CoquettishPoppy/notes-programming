@@ -1,8 +1,11 @@
 <view class="menu-view">
   <view class="menu-box">
-    <view class="title">1.购物车左滑删除功能</view>
-    <view class="cart-container">
-      <cart></cart>
+    <view class="title">1.实现地址栏信封边框样式</view>
+    <view class="envo-container">
+      <view class="">第一种方式：</view>
+      <view class="inline"></view>
+      <view class="">第二种方式：</view>
+      <view class="inline1"></view>
     </view>
   </view>
 </view>

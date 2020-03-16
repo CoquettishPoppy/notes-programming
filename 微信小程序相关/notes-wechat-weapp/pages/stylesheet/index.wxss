@@ -1,1 +1,35 @@
-@import '../../style/index.wxss'
+@import "../../style/index.wxss";
+
+.envo-container {
+  width: 100%;
+}
+.envo-container .inline {
+  height: 6rpx;
+  width: 500rpx;
+  background-image: linear-gradient(
+    90deg,
+    #fff 0%,
+    #fff 25%,
+    #00f 25%,
+    #00f 50%,
+    #fff 50%,
+    #fff 75%,
+    #f00 75%,
+    #f00 100%,
+    #fff 100%
+  );
+  background-size: 90rpx 6rpx;
+  background-position: 6rpx 0;
+  transform: skew(-45deg) scale(1.3, 1);
+}
+.envo-container .inline1 {
+  width: 500rpx;
+  height: 6rpx;
+  background-image: repeating-linear-gradient(
+    -45deg,
+    #00f 0 10px,
+    transparent 10px 20px,
+    #f00 20px 30px,
+    transparent 30px 40px
+  );
+}
