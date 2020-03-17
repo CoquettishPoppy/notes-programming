@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <button onclick="addData()">点击新增数据</button>
+  </body>
+  <script>
+    function addData(){
+        $.post('http://127.0.0.1:7001/user/add',{
+          userName: '哈哈哈哈哈1',
+          age: 18
+        },function(res) {
+            console.log('新增成功');
+          });
+    }
+  </script>
+</html>
