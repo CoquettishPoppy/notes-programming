@@ -5,13 +5,13 @@ Component({
 
   },
   data: {
-    timeLeft: '15:00'
+    timeLeft: '10:00'
   },
   methods: {
     leftCount () {
       clearInterval(timer)
       let tim = 10 * 60 * 1000 * 0.001
-      this.timeCount(tim, clearInterval, res => {
+      this.timeCount(tim, res => {
         if (res && res.toString().indexOf('-1') <= -1) {
           this.setData({
             timeLeft: res || ''
